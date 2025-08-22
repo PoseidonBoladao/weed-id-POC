@@ -1,5 +1,6 @@
 Flask
 Flask-Session
+gunicorn
 requests
 python-dotenv
 pyheif
