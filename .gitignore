@@ -1,4 +1,4 @@
 .env
-flask-session/
+flask_session/
 __pycache__/
 old API.py
