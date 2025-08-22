@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block main %}
+  <h2>Welcome to the Weed Identification App</h2>
+  <h3>Instructions</h3>
+  <ul>
+    <li>Capture one weed per picture.</li>
+    <li>Ensure the weed is well-lit and in focus.</li>
+    <li>Use your device's camera to take a photo of the weed.</li>
+  </ul>
+  <form action="/newID" method="post" enctype="multipart/form-data">
+      <label for="formFile" class="form-label">Upload a photo of the weed:</label>
+      <input type="file" accept="image/*" capture="environment" name="weed_image" required class="form-control" style="width: auto;">
+      <button type="submit" class="btn btn-primary">Identify Weed</button>
+  </form>
+{% endblock %}
