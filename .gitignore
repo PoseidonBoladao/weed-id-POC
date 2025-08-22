@@ -1,5 +1,4 @@
 .env
-/flask-session
-/.venv
-/__pycache__/
-"old API.py"
+flask-session/
+__pycache__/
+old API.py
