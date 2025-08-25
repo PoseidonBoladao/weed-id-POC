@@ -5,7 +5,8 @@
 ## Introduction
 This application aims to assist farmers, gardeners, and agricultural professionals in quickly and accurately detecting weed species, thereby facilitating more effective weed management and control strategies.\
 The idea for WeedID came from a talk I had with a farmer who expressed the need for a more efficient way to identify and manage weeds in their fields.\
-The application was designed to be used mostly with a mobile device, with in-field identification being the main use case.
+The application was designed to be used mostly with a mobile device, with in-field identification being the main use case.\
+Web app URL: https://weed-id.azurewebsites.net/
 
 ## File description
 
@@ -63,7 +64,7 @@ Lists the Python dependencies required to run the WeedID application.
 This project utilized OpenAI's GPT-4 to assist in writing and refining code, as well as generating documentation. However, the fundamental logic and conception of the application were developed by the author.
 
 ## Hosting
-The WeedID application is hosted on [Azure](https://azure.microsoft.com/) with the following URL: https://weed-id-poc-container-c9dgbbcngjfbdnht.northcentralus-01.azurewebsites.net/ \
+The WeedID application is hosted on [Azure](https://azure.microsoft.com/) with the following URL: https://weed-id.azurewebsites.net/ \
 The hosting environment is configured to use containers as the form of deployment.\
 This ensures consistency across different environments and simplifies the deployment process, given that one of the libraries (pyheif) used in the project has specific system dependencies (libheif) that are encapsulated within the container.
 
